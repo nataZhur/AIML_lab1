@@ -1,4 +1,4 @@
-# Задание 1 - преобрадовать список в словарь
+# Задание 1 - преобразовать список в словарь
 def ListToDict():
     aList = ['a', 'b', 'c', 'd', 'e', 'a', 'a', 'b', 'c']
     print({value: [ind for ind, x in enumerate(aList) if x == value] for value in aList})
